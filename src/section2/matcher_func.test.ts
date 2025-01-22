@@ -10,3 +10,10 @@ it("文字列のテスト",() => {
 it("Booleanをテストするぞー",() => {
     expect(true).toBe(true);
 });
+
+//toEqual
+it("配列のテスト",() => {
+    const arr1 = [100,200,300];
+    const arr2 = [100,200,300];
+    expect(arr1).toEqual(arr2);
+})
