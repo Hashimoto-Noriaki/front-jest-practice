@@ -17,3 +17,15 @@ it("配列のテスト",() => {
     const arr2 = [100,200,300];
     expect(arr1).toEqual(arr2);
 })
+
+it("オブジェクトのテスト",() => {
+    const obj1 = {
+        a: 1,
+        b: 2,
+    };
+    const obj2 = {
+        a: 1,
+        b: 2,
+    };
+    expect(obj1).toEqual(obj2);
+})
