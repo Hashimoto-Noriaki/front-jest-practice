@@ -29,3 +29,8 @@ it("オブジェクトのテスト",() => {
     };
     expect(obj1).toEqual(obj2);
 })
+
+//not 
+it("10+20は30ではない",()=>{
+    expect(10 + 20).not.toBe(30);
+})
